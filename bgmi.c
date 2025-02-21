@@ -6,7 +6,7 @@
 #include <pthread.h>
 #include <time.h>
 
-#define DEFAULT_THREADS 500 // Fixed number of threads to 900
+#define DEFAULT_THREADS 900 // Fixed number of threads to 900
 
 struct thread_data {
     char *ip;
